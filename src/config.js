@@ -1,5 +1,6 @@
 export const BASE_URL = '';
 export const HOME_PATH = '';
+export const HORIZONTAL_MAX_ITEM = 7;
 
 export const MenuOrientation = {
     VERTICAL: 'vertical',
@@ -18,7 +19,7 @@ export const ThemeDirection = {
 }
 
 const config = {
-    menuOrientation: MenuOrientation.HORIZONTAL,
+    menuOrientation: MenuOrientation.VERTICAL,
     miniDrawer: false,
     fontFamily: 'Poppins, sans-serif',
     borderRadius: 24,
